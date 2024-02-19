@@ -39,7 +39,7 @@ struct CategoryHome: View {
                     .environment(modelData)
             }
         } detail: {
-            LandmarkDetail(landmark: modelData.landmarks[0])
+            Text("Select a Landmark")
         }
     }
 }
